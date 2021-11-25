@@ -4,11 +4,13 @@ import numpy as np
 import HandTrackingModule as htm
 import math
 import osascript
-
+import os
 # from ctypes import cast, POINTER
 # from comtypes import CLSCTX_ALL
 # from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
+
+print(os.getcwd())
 ################################
 wCam, hCam = 640, 480
 ################################
